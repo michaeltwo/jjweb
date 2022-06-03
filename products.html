@@ -1,21 +1,24 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-cn">
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-<title>Happy</title>
-<meta name="description" content="" />
+<title>産品(Products)</title>
 <meta name="keywords" content="" />
-<link href="zp/templets/default/style/bootstrap.min.css?a=114" rel="stylesheet">
-<link href="zp/templets/default/style/main.css?a=114" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="zp/templets/default/style/style.css?a=1511949039"/>
+<meta name="description" content="" />
+
+<link rel="stylesheet" type="text/css" href="zp/templets/default/style/style.css?a=1510923281"/>
+<script type="text/javascript" src="zp/templets/default/js/jquery.js"></script>
+<script type="text/javascript" src="zp/templets/default/js/jquery.SuperSlide.2.1.2.js"></script>
 <!--[if lte IE 9]>
-  <script type="text/javascript" src="cn/scripts/html5shiv.v3.72.min.js"></script>
+<script type="text/javascript" src="zp/templets/default/js/html5shiv.v3.72.min.js"></script>
 <![endif]-->
 
 </head>
 
 <body>
+<div id="whyGeely" class="about">
+
 <script type="text/javascript">
 	if (window.location.toString().indexOf('pref=padindex') != -1) {} else {
 		if (/AppleWebKit.*Mobile/i.test(navigator.userAgent) || (/MIDP|SymbianOS|NOKIA|SAMSUNG|LG|NEC|TCL|Alcatel|BIRD|DBTEL|Dopod|PHILIPS|HAIER|LENOVO|MOT-|Nokia|SonyEricsson|SIE-|Amoi|ZTE/.test(navigator.userAgent))) {
@@ -36,14 +39,14 @@
         <nav class="mainnav">
             <ul class="menu" id="menu">
 				    <li><a style="color:#b5b5b5;" href='index.html' >HOME</a></li>
-					<li><a class="nava" href='about.html' >公司(About)</a></li>
-					<li><a class="nava" href='products.html' >産品(Products)</a></li>
-					<li><a class="nava" href='join.html' >閤作(cooperation)</a></li>
-					<li><a class="nava" href='design.html' >設計(Design)</a></li>
-					<!--
-					<li><a class="nava" href='investment/index.html' >投资者关系</a></li>
-					-->
-					<li><a class="nava" href='career.html' >職業(Career)</a></li>
+            <li><a class="nava" href='about.html' >公司(About)</a></li>
+            <li><a class="nava" href='products.html' >産品(Products)</a></li>
+            <li><a class="nava" href='join.html' >閤作(cooperation)</a></li>
+            <li><a class="nava" href='design.html' >設計(Design)</a></li>
+			<!--
+            <li><a class="nava" href='investment/index.html' >投资者关系</a></li>
+            -->
+			<li><a class="nava" href='career.html' >職業(Career)</a></li>
             </ul>
             <div class="clear"></div>
         </nav>
@@ -75,57 +78,107 @@
 </script>
 </header>
 
-<section id="home">	    
-	<div id="home-carousel" class="carousel slide" data-interval="false">
-		<ol class="carousel-indicators">
-			<li data-target="#home-carousel" data-slide-to="0" class="active"></li>
-			<li data-target="#home-carousel" data-slide-to="1"></li>
-<li data-target="#home-carousel" data-slide-to="2"></li>
-<li data-target="#home-carousel" data-slide-to="3"></li>
-<li data-target="#home-carousel" data-slide-to="4"></li>
-
-		</ol>
-
-		<div class="carousel-inner">
-			<div class="item active" style=" background:url(zp/jjimages/index.JPG) no-repeat center center;"></div>
-			<!--
-			<div class="item " style=" background:url(zp/uploads/3-1F3111521070-L.jpg) no-repeat center center;"></div>
-			<div class="item " style=" background:url(zp/uploads/1-16121GT4210-L.jpg) no-repeat center center;"></div>
-			<div class="item " style=" background:url(zp/uploads/1-16121GT3580-L.jpg) no-repeat center center;"></div>
-			-->
-			<div class="item" id="vodeo">
-				<!-- <video controls="controls"> -->
-				<video autoplay loop muted>
-                
- 
-
-                <source src="./zp/jjvideo/background.mp4" type="video/webm">
- 
-					<source src="./zp/jjvideo/background.mp4" type="video/mp4">
-                
-				</video>
-			</div>
-		</div>
-
-		<a class="carousel-left member-carousel-control hidden-xs" href="#home-carousel" data-slide="prev">
-			<i class="fa fa-angle-left"><</i>
-		</a>
-		<a class="carousel-right member-carousel-control hidden-xs" href="#home-carousel" data-slide="next">
-			<i class="fa fa-angle-right">></i>
-		</a>
-	</div>
-</section>
-<!--
-<section class="Contain home_con">
+<div class="custon_fixed">
 	<ul>
-	<li><a href="#"><img src="zp/uploads/1-16121GR2440-L.jpg"></a></li>
-<li><a href="wzzn.html"><img src="zp/uploads/1-16121GR3510-L.jpg"></a></li>
-<li><a href="join.html"><img src="zp/uploads/1-16121GR4230-L.jpg"></a></li>
-<li><a href="made.html"><img src="zp/uploads/1-16121GR4500-L.jpg"></a></li>
-
+		<li href="#lcid19"><a href="#"><img src="zp/templets/default/images/hamberger.png"><span>Restaurant</span></a></li>
+		<li href="#lcid20"><a href="#"><img src="zp/templets/default/images/201601081140414041.png"><span>Hotel</span></a></li>
+		<!--
+		<li href="#lcid21"><a href="#"><img src="zp/templets/default/images/201601081143364336.png"><span>书房</span></a></li>
+		<li href="#lcid22"><a href="#"><img src="zp/templets/default/images/201601081140414041.png"><span>厨房</span></a></li>
+		-->	
 	</ul>
-</section>
--->
+</div>
+
+<div class="custonNewInfo">
+
+	<div class="Contain">
+		<div class="box" id="lcid19">
+			<div class="banner">
+				<img src="zp/jjimages/restaurant1.jpg" class="big"/>
+
+			</div>
+			<ul>
+			<li data-big="zp/jjimages/restaurant1.jpg" data-small="#"><a href="javascript:;">Restaurant_Japan1</a></li>
+<li data-big="zp/jjimages/restaurant2.jpg" data-small="#"><a href="javascript:;">Restaurant_Japan2</a></li>
+<li data-big="zp/jjimages/restaurant3.jpg" data-small="#"><a href="javascript:;">Restaurant_Japan3</a></li>
+
+			</ul>
+		</div>
+		
+		<div class="box" id="lcid20">
+			<div class="banner">
+				<img src="zp/jjimages/hotel1.JPG" class="big"/>
+
+			</div>
+			<ul>
+			<li data-big="zp/jjimages/hotel1.jpg" data-small="#"><a href="javascript:;">Hotel_JapanI</a></li>
+			<li data-big="zp/jjimages/hotel2.jpg" data-small="#"><a href="javascript:;">Hotel_JapanII</a></li>
+			<li data-big="zp/jjimages/hotel3.jpg" data-small="#"><a href="javascript:;">Hotel_JapanIII</a></li>
+
+			</ul>
+		</div>
+		<div>
+			<ul>
+			<li data-small="#"><a href="./index.html" style="font-size:15px">More? Please Contact Us</a></li>
+			</ul>
+		</div>
+		<!--
+		<div class="box" id="lcid21">
+			<div class="banner">
+				<img src="zp/uploads/1-16121G63I90-L.jpg" class="big"/>
+
+			</div>
+			
+			<ul>
+			<li data-big="zp/uploads/1-16121G63I90-L.jpg" data-small="#"><a href="javascript:;">米兰剪影</a></li>
+<li data-big="zp/uploads/1-16121G63H20-L.jpg" data-small="#"><a href="javascript:;">首尔之缤</a></li>
+
+			</ul>
+		</div>
+		
+		<div class="box" id="lcid22">
+			<div class="banner">
+				<img src="zp/uploads/1-16121G63R60-L.jpg" class="big"/>
+
+			</div>
+			<ul>
+			<li data-big="zp/uploads/1-16121G63R60-L.jpg" data-small="#"><a href="javascript:;">柏林漫步</a></li>
+<li data-big="zp/uploads/1-16121G63Q20-L.jpg" data-small="#"><a href="javascript:;">琥珀迷情</a></li>
+<li data-big="zp/uploads/1-16121G63K40-L.jpg" data-small="#"><a href="javascript:;">魅影啡色</a></li>
+
+			</ul>
+		</div>
+		-->
+	</div>
+	
+    <!--js-->
+
+    <script>
+        $(".box").each(function () {
+            $(this).find("li:first-child").addClass("on");
+            $(this).find("li:last-child").addClass("end");
+            $(this).find("li").bind("mouseover", function () {
+                var big = $(this).attr("data-big");
+                var small = $(this).attr("data-small");
+                $(this).siblings().removeClass("on");
+                $(this).addClass("on");
+                $(this).parent("ul").prev(".banner").find(".big").attr("src", big);
+                $(this).parent("ul").prev(".banner").find("dl").find("dt").find("img").attr("src", small);
+            });
+        });
+        //导航定位
+        $(".custon_fixed li").click(function () {
+            var e, t; e = $(this).attr("href");
+            t = $(e).offset().top;
+            $("html, body").animate({ scrollTop: t + "px" }, 800);
+            return !1
+        });
+    </script>
+    <!--js end-->
+</div>
+
+<div class="viewport-cont viewport-cont-bottom">
+
 <div class="dibu_bg">
 	<footer class="Bottom">
 		<!--
@@ -233,7 +286,7 @@
 						<div><img src="zp/templets/default/images/wechat.png" width="97" height="97" /></div>
 					</li>
 					<li class="li3">
-						<div><img src="zp/templets/default/images/twitter.png" width="97" height="97" /></div>
+						<div><img src="zp/templets/default/images/twitter.PNG" width="97" height="97" /></div>
 					<!-- social media adding with li1,li2,li3,li4,li5 in /stytle.css and icons in /images folders
 					</li>
 					<li class="li4">
@@ -264,19 +317,8 @@
 	</script>
 </div>
 
-<script type="text/javascript" src="zp/templets/default/js/jquery.js?a=114"></script>
-<script type="text/javascript" src="zp/templets/default/js/bootstrap.min.js?a=114"></script>
-<script type="text/javascript" src="zp/templets/default/js/jquery.prettyPhoto.js?a=114"></script>
-<script type="text/javascript" src="zp/templets/default/js/main2.js?a=114"></script>
-
-<style>
-.copyrights{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
-</style>
-<!--
-<div class="copyrights" id="links20210126">
-	Collect from <a href="http://www.cssmoban.com/"  title="网站模板">模板之家</a>
-	<a href="http://cooco.net.cn/" title="组卷网">组卷网</a>
 </div>
--->
+
+</div>
 </body>
 </html>
